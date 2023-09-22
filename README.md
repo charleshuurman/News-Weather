@@ -1,4 +1,4 @@
-# Gas Station Locator Web App
+# News-Weather Web App
 
 ## User Story
 
