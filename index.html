@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & News Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Weather & News Dashboard</h1>
+
+            <div class="field">
+                <label class="label">Enter City:</label>
+                <div class="control">
+                    <input class="input" type="text" id="city-input" placeholder="City Name">
+                </div>
+                <button class="button is-primary" id="submit-btn">Submit</button>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <h2 class="subtitle">Weather Info</h2>
+                    <pre id="weather-info"></pre>
+                </div>
+                <div class="column">
+                    <h2 class="subtitle">News Headlines</h2>
+                    <div id="news-info"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
